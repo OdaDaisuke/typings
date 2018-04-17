@@ -1,0 +1,37 @@
+{
+    "name": "@types/video.js",
+    "version": "6.2.5",
+    "description": "TypeScript definitions for Video.js",
+    "license": "MIT",
+    "contributors": [
+        {
+            "name": "Vincent Bortone",
+            "url": "https://github.com/vbortone",
+            "githubUsername": "vbortone"
+        },
+        {
+            "name": "Simon Clériot",
+            "url": "https://github.com/scleriot",
+            "githubUsername": "scleriot"
+        },
+        {
+            "name": "Sean Bennett",
+            "url": "https://github.com/SWBennett06",
+            "githubUsername": "SWBennett06"
+        },
+        {
+            "name": "Christoph Wagner",
+            "url": "https://github.com/IgelCampus",
+            "githubUsername": "IgelCampus"
+        }
+    ],
+    "main": "",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/OdaDaisuke/typings"
+    },
+    "scripts": {},
+    "dependencies": {},
+    "typesPublisherContentHash": "e1f05a04acebd0a83b4df9eab5cc263b4eaaf09d6024510026bc4f353e37360e",
+    "typeScriptVersion": "2.0"
+}
