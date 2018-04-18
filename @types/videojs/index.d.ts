@@ -10,11 +10,14 @@
 // Javascript, whether the browser is playing the video through HTML5
 // video, Flash, or any other supported playback technologies.
 
-declare function videojs(id: any, options?: videojs.PlayerOptions, ready?: () => void): videojs.Player;
+declare function videojs(id?: any, options?: videojs.PlayerOptions, ready?: () => void): videojs.Player;
 export = videojs;
 export as namespace videojs;
 
 declare namespace videojs {
+	function getComponent(name: string): any
+	function registerComponent(name: string, ComponentToRegister: any): any
+
 	interface PlayerOptions {
 		techOrder?: string[];
 		sourceOrder?: boolean;
@@ -43,8 +46,8 @@ declare namespace videojs {
 	}
 
 	interface Player {
-		getComponent(name: string): any;
-		registerComponent(name: string, ComponentToRegister: any): any;
+		addChild(child: string, options: any, index: any): void;
+		addClass(classToAdd: any): void;
 		play(): Player;
 		pause(): Player;
 		paused(): boolean;
